@@ -101,18 +101,12 @@ public class Main {
             }
         }
         return month;
-
     }
 
     public static int sum(int bDay, int tDay, int bMonth, int tMonth, int bYear, int tYear){
 
-
         return Day2Day(bDay, tDay) + Month2Month(bMonth, tMonth, tYear) + Year2Year(bYear, tYear);
 
     }
-
-
-
-
 
 }
